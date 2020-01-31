@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_view_sections"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sections"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnSDL"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text_view_sections"
+        android:layout_centerHorizontal="true"
+        android:text="Software Design Lab" />
+
+    <Button
+        android:id="@+id/btnAlgo"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="Algorithm"
+        android:layout_below="@+id/btnSDL"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btnCpp"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="C++"
+        android:layout_below="@+id/btnAlgo"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
